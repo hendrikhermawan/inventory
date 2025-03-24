@@ -20,6 +20,7 @@
     </thead>
     <tbody>
         <?php
+        // data dari db_connect
         include "includes/db_connect.php";
         $result = mysqli_query($conn, "
             SELECT a.*, c.nama_kategori AS sub_kategori, p.nama_kategori AS kategori_utama, l.nama_lokasi
