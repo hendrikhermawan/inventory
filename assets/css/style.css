@@ -1,0 +1,28 @@
+/* Warna background navbar */
+.navbar {
+    padding: 15px 0;
+    transition: background 0.3s ease-in-out;
+}
+
+.navbar-nav .nav-item:first-child .nav-link {
+    color: rgb(16, 177, 241) !important; 
+    font-weight: bold; 
+}
+
+
+.navbar .nav-link {
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+
+.navbar .nav-link:hover {
+    color: #07b0ff !important; 
+
+}
+
+
+
+.navbar {
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
