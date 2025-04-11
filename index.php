@@ -1,4 +1,6 @@
+
 <?php include "includes/header.php"; ?>
+
 <h1>Daftar Inventaris Aset</h1>
 <a href="add.php" class="btn btn-primary mb-3">Tambah Aset</a>
 <table class="table table-bordered">
